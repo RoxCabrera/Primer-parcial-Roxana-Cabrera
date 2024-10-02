@@ -1,0 +1,87 @@
+.img{
+    width: 10px;  /* Cambia el tamaño según tus necesidades */
+    height: auto;  /* Mantiene la proporción de la imagen */
+    
+margin: 30px; /* Opcional: para centrar la imagen si el contenedor tiene un ancho definido */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 5px;
+    background-color:rgb(107, 201, 201);
+}
+
+header {
+    background:color(srgb rgb(228, 14, 14));
+    color:rgb(221, 96, 233);
+    font-size:20px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin:15px;
+}
+
+nav ul li a {
+    
+    
+    color:rebeccapurple;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+article {
+    text-align:"left";
+    background:beige;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.imagen-postre {
+    width: 20%; /* Ajusta este valor para el tamaño deseado */
+    height: auto;
+    margin: 20px;
+    border-radius: 30px;
+}
+footer {
+    background:coral;
+    color:#fff
+    padding: 5px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color:rgb(10, 73, 192);
+    text-decoration: none;
+}
